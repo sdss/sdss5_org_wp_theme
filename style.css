@@ -1,0 +1,206 @@
+/*
+ Theme Name:   sdss5.org Wordpress theme
+ Theme URI:    https://wpzita.com/bizz-builder/
+ Description:  Bizz Builder is a child theme of zita WordPress theme, It provides very unique look and extra post layout. Zita is completely builder based theme, With super fast and highly customizable options. Zita works with any of your favorite page builder like Elementor, Visual Composer, Beaver Builder, SiteOrigin, Divi, Brizy etc. Best Suitable for creating any type of website such a corporate, store, agency, blog, portfolio, restaurant, wedding, construction, hospital, school, interior, car workshop, life coach, wine shop, barber shop, furniture shop, yoga, resume, charity, digital marketing etc. Zita includes 8 unique header layout and 8 footer widget layout which makes it extremely powerful. Some more amazing feature are #Woocommerce ready #RTL Ready #Full Responsive #Edit settings in tablet & mobile #Top header #Bottom header #Top footer #Bottom Footer #Transparent Header. Looking for perfect base theme? Looking for perfect multipurpose theme? No need to Look further! Just go with Zita demos: https://wpzita.com/. Zita is built with best SEO practice and best friend of Woocommerce and Elementor.
+ Author:       WpZita Team
+ Author URI:   https://wpzita.com/
+ Template:     zita
+ Version:      1.0.5
+ License:      GNU General Public License v3 or later
+ License URI:   http://www.gnu.org/licenses/gpl-3.0.html
+ Tags: two-columns, right-sidebar, custom-menu, custom-background, editor-style, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, blog, photography, threaded-comments, custom-colors 
+ Text Domain: bizz-builder
+*/
+body {
+    background:#4c4040;
+}
+#content .bizz-builder-blog-layout article.zita-article:first-child {
+width: 100%;
+margin-right: 0;
+}
+#content .bizz-builder-blog-layout 
+ article.zita-article:nth-child(5n+5) {
+width: 100%;
+margin-right: 0;
+}
+#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content-wrapper,
+#content .bizz-builder-blog-layout article.zita-article:nth-child(5n+5) .entry-content-wrapper{
+position: absolute;
+ bottom:0;
+}
+#content .bizz-builder-blog-layout article.zita-article:first-child  .post-img-wrapper .post-img,#content .bizz-builder-blog-layout article.zita-article:nth-child(5n+5) .post-img-wrapper .post-img{
+margin-bottom:0;
+}
+#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content-wrapper h2.entry-title a,#content .bizz-builder-blog-layout article.zita-article:nth-child(5n+5) .entry-content-wrapper h2.entry-title a{
+color:#fff;
+}
+#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content-wrapper,#content .bizz-builder-blog-layout article.zita-article:first-child .entry-meta a,
+#content .bizz-builder-blog-layout article.zita-article:nth-child(5n+5) .entry-content-wrapper,#content .bizz-builder-blog-layout article.zita-article:nth-child(5n+5) .entry-meta a,#content .bizz-builder-blog-layout article.zita-article:nth-child(5n+5) .entry-content-wrapper .entry-meta,#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content-wrapper .entry-meta{
+color:rgba(255, 255, 255, 0.8);
+
+}
+#content .bizz-builder-blog-layout article.zita-article:first-child h2.entry-title a:before,#content .bizz-builder-blog-layout article.zita-article:nth-child(5n+5) h2.entry-title a:before{
+width:0;
+}
+article.zita-article:first-child .bizz-builder-blog-layout h2.entry-title a,article.zita-article:nth-child(5n+5) .bizz-builder-blog-layout h2.entry-title a{
+margin:0;
+}
+.entry-content-wrapper{
+position:relative;
+}
+#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content-wrapper:before, #content .bizz-builder-blog-layout article.zita-article:nth-child(5n+5) .entry-content-wrapper:before{
+    content: '';
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    left: 0;
+    top: -100px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(5.3%, rgba(0, 0, 0, 0.917)), color-stop(10.6%, rgba(0, 0, 0, 0.834)), color-stop(15.9%, rgba(0, 0, 0, 0.753)), color-stop(21.3%, rgba(0, 0, 0, 0.672)), color-stop(26.8%, rgba(0, 0, 0, 0.591)), color-stop(32.5%, rgba(0, 0, 0, 0.511)), color-stop(38.4%, rgba(0, 0, 0, 0.433)), color-stop(44.5%, rgba(0, 0, 0, 0.357)), color-stop(50.9%, rgba(0, 0, 0, 0.283)), color-stop(57.7%, rgba(0, 0, 0, 0.213)), color-stop(65%, rgba(0, 0, 0, 0.147)), color-stop(72.9%, rgba(0, 0, 0, 0.089)), color-stop(81.4%, rgba(0, 0, 0, 0.042)), color-stop(90.6%, rgba(0, 0, 0, 0.011)), to(transparent));
+    background-image: -o-linear-gradient(bottom, black 0%, rgba(0, 0, 0, 0.917) 5.3%, rgba(0, 0, 0, 0.834) 10.6%, rgba(0, 0, 0, 0.753) 15.9%, rgba(0, 0, 0, 0.672) 21.3%, rgba(0, 0, 0, 0.591) 26.8%, rgba(0, 0, 0, 0.511) 32.5%, rgba(0, 0, 0, 0.433) 38.4%, rgba(0, 0, 0, 0.357) 44.5%, rgba(0, 0, 0, 0.283) 50.9%, rgba(0, 0, 0, 0.213) 57.7%, rgba(0, 0, 0, 0.147) 65%, rgba(0, 0, 0, 0.089) 72.9%, rgba(0, 0, 0, 0.042) 81.4%, rgba(0, 0, 0, 0.011) 90.6%, transparent 100%);
+    background-image: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0.917) 5.3%, rgba(0, 0, 0, 0.834) 10.6%, rgba(0, 0, 0, 0.753) 15.9%, rgba(0, 0, 0, 0.672) 21.3%, rgba(0, 0, 0, 0.591) 26.8%, rgba(0, 0, 0, 0.511) 32.5%, rgba(0, 0, 0, 0.433) 38.4%, rgba(0, 0, 0, 0.357) 44.5%, rgba(0, 0, 0, 0.283) 50.9%, rgba(0, 0, 0, 0.213) 57.7%, rgba(0, 0, 0, 0.147) 65%, rgba(0, 0, 0, 0.089) 72.9%, rgba(0, 0, 0, 0.042) 81.4%, rgba(0, 0, 0, 0.011) 90.6%, transparent 100%);
+}
+
+#content .bizz-builder-blog-layout article.zita-article:first-child h2.entry-title,#content .bizz-builder-blog-layout article.zita-article:nth-child(5n+5) h2.entry-title,#content .bizz-builder-blog-layout article.zita-article:first-child .entry-meta,#content .bizz-builder-blog-layout article.zita-article:nth-child(5n+5) .entry-meta,#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content,#content .bizz-builder-blog-layout article.zita-article:nth-child(5n+5) .entry-content{
+margin-left:20px;
+margin-right:40px;
+}
+#content .entry-content-outer-wrapper.bizz-builder-blog-layout .entry-content-wrapper.no-thumb{
+width:100%;
+}
+#content .entry-content-outer-wrapper.bizz-builder-blog-layout .zta-date-meta.no-thumb .posted-on{
+margin-left:0;
+}
+#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content,
+#content .bizz-builder-blog-layout article.zita-article:nth-child(5n+5) .entry-content{
+margin-bottom:40px;
+}
+#content .bizz-builder-blog-layout article.zita-article:first-child .post-img-wrapper,#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content-wrapper,
+#content .bizz-builder-blog-layout article.zita-article:nth-child(5n+5) .post-img-wrapper,#content .bizz-builder-blog-layout article.zita-article:nth-child(5n+5) .entry-content-wrapper{
+width:100%;
+float:none;
+margin:0;
+padding-right:0;
+}
+
+#content.site-content{
+  display:block;
+}
+#content .entry-content-outer-wrapper.bizz-builder-blog-layout:before{
+    content: '';
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    display: block;
+}
+
+#content .entry-content-outer-wrapper.bizz-builder-blog-layout{
+    padding: 20px;
+   position:relative;
+}
+#content .entry-content-outer-wrapper.bizz-builder-blog-layout {
+    padding: 20px;
+    position: relative;
+        overflow: hidden;
+}
+#content .entry-content-outer-wrapper.bizz-builder-blog-layout .post-img-wrapper{
+float:left;
+width:50%;
+padding-right:40px
+}
+#content .entry-content-outer-wrapper.bizz-builder-blog-layout .entry-content-wrapper {
+float:left;
+width:50%;
+}
+#content .entry-content-outer-wrapper.bizz-builder-blog-layout .post-img-wrapper .post-img{
+margin-bottom:0;
+}
+article.zita-article .bizz-builder-blog-layout h2.entry-title{
+font-size:26px;
+font-family: "Catamaran-semibold", sans-serif;
+    position: relative;
+
+}
+article.zita-article .bizz-builder-blog-layout h2.entry-title a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    width:3px;
+    height: 60%;
+background-color:#006799;
+}
+
+article.zita-article .bizz-builder-blog-layout h2.entry-title a{
+margin-left: 15px;
+display: block;
+}
+
+.bizz-builder-blog-layout .entry-meta {
+font-family: "Catamaran-semibold", sans-serif;
+    margin-top: 10px;
+    position:relative;
+
+}
+.bizz-builder-blog-layout .entry-meta a{
+    color:#666;
+}
+
+.bizz-builder-blog-layout .entry-content p {
+    margin-bottom: 20px!important;
+}
+.fullwidthstrechched #content .entry-content-outer-wrapper.bizz-builder-blog-layout:before{
+background:transparent;
+}
+.fullwidthstrechched #content .entry-content-outer-wrapper.bizz-builder-blog-layout{
+padding:0
+}
+.fullwidthcontained #content .entry-content-outer-wrapper.bizz-builder-blog-layout:before{
+    background:transparent;
+}
+.fullwidthstrechched #content .entry-content-outer-wrapper.bizz-builder-blog-layout{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;
+}
+.fullwidthcontained #content .entry-content-outer-wrapper.bizz-builder-blog-layout{
+padding:0;
+padding-bottom: 25px;
+}
+#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content-wrapper.no-thumb{
+position:relative;
+color:#808285;
+}
+#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content-wrapper.no-thumb:before{
+position:relative;
+}
+#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content-wrapper.no-thumb h2.entry-title a{
+color:#3a3a3a;
+}
+#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content-wrapper.no-thumb .entry-meta{
+   color: #9c9c9c;
+}
+#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content-wrapper.no-thumb .entry-meta a{
+color:#666;
+}
+
+#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content-wrapper.no-thumb h2.entry-title, #content .bizz-builder-blog-layout article.zita-article:first-child .entry-content-wrapper.no-thumb .entry-meta,#content .bizz-builder-blog-layout article.zita-article:first-child .entry-content-wrapper.no-thumb .entry-content{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+
+@media screen and (max-width: 767px){
+
+    article.zita-article .bizz-builder-blog-layout h2.entry-title{
+font-size:24px;
+font-family: "Catamaran-bold", sans-serif;
+
+}
+}
